@@ -1,4 +1,5 @@
 rootProject.name = 'effective-java3'
 include 'ch02'
 include 'ch08'
+include 'ch05'
 
