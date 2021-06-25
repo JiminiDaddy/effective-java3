@@ -59,9 +59,12 @@ public class UnboundedWildCardType {
 		for  (Object o1 : numbers) {
 			if (numbers2.contains(o1))	 {
 				++count;
-			} else {
+			}
+			/*
+			else {
 				numbers2.add(o1);	// type error
 			}
+			*/
 		}
 		return count;
 	}
